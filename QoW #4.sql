@@ -1,7 +1,7 @@
 -- For each brand, which month in 2020 had the highest number of refunds, and how many refunds did that month have?
 
 WITH refunds AS (
-SELECT EXTRACT(month from refund_ts) as month,
+  SELECT EXTRACT(month from refund_ts) as month,
     CASE 
       WHEN product_name LIKE '%Apple%' OR product_name LIKE '%Mac%' THEN 'Apple'
       WHEN product_name LIKE '%ThinkPad%' THEN 'Lenovo'
@@ -9,14 +9,13 @@ SELECT EXTRACT(month from refund_ts) as month,
       WHEN product_name LIKE '%bose%' THEN 'Bose'
       ELSE 'None'
     END AS brand,
-    COUNT(product_name) AS refund_count,
-    
+    COUNT(product_name) AS refund_count
   FROM core.order_status
   LEFT JOIN core.orders
     ON order_status.order_id = orders.id 
- WHERE EXTRACT(year from refund_ts) = 2020
- GROUP BY 1,2
- ORDER BY 3 desc
+  WHERE EXTRACT(year from refund_ts) = 2020
+  GROUP BY 1,2
+  ORDER BY 3 desc
 )
 
 SELECT brand,
