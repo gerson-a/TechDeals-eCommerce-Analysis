@@ -24,4 +24,4 @@ SELECT brand,
   refund_count
   FROM refunds
   QUALIFY (rank () over (partition by brand order by refund_count desc) = 1)
-  ORDER BY refund_count DESC
+  ORDER BY refund_count DESC;
