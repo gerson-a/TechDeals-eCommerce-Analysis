@@ -1,4 +1,4 @@
-# TechDeals Trends and Efficiency
+# Data-Driven Insights into Sales Trends & Efficiency for TechDeals
 Founded in 2018, TechDeals is an e-commerce company that sells popular electronics products to a global customer base. TechDeals sells products through their online site as well as through their mobile app, and they use a variety of marketing channels to reach customers, including Email campaigns, SEO, and affiliate links. 
 
 TechDeals has data on more than 100K customer transactions across several dimensions and metrics. To help TechDeal's Head of Operations understand the company's recent performance, a thorough analysis was conducted on this data. The resulting insights and recommendations focus on the following:
