@@ -20,7 +20,7 @@ From 2019-2022, TechDeals averaged slightly over **$7 million in sales and 27k o
 
 However, TechDeals has since seen consecutive years of sales decline, with **sales falling 10% in 2021** (despite a 6% YoY increase in orders) and a precipitous fall of **-46% in sales and -40% in orders** from 2021 to 2022.
 
-Across all regions during this time period, TechDeals' gaming monitor has been the best performing product overall, and Apple products have accounted for **50% of all sales.**
+Across all regions during this time period, TechDeals' gaming monitor has been the best performing product overall, and Apple products have accounted for **roughly 50% of all sales.**
 
 ![Product Performance](https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/c11c535e-a6c6-41ca-8317-d0ea6d82e26a)
 
