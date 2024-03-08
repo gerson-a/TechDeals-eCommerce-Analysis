@@ -18,16 +18,23 @@ From 2019-2022, TechDeals averaged slightly over **$7 million in sales and 27k o
 
 2019 was TechDeals' weakest overall year with less than $4 million in sales, but the company recieved a massive boost following the onset of the pandemic, with **order count doubling in 2020** to nearly 34k total orders. Average Order Value (AOV) also increased **31% to approximately $300 in 2020**, leading to a **163% spike in sales** and their best overall year, **totalling over $10 million in sales**. 
 
-However, TechDeals has since seen consecutive years of sales decline, with **sales falling 10% in 2021** (despite a 6% YoY increase in orders) and a precipitous fall of **-46% in sales and -40% in orders** from 2021 to 2022.
+However, TechDeals has since seen consecutive years of sales decline, with **sales falling 10% in 2021** (despite a 6% YoY increase in orders) and a precipitous fall of **-46% in sales and -40% in orders** from 2021 to 2022. By 2022's conclusion, AOV had also fallen sharply, **dropping back to 2019 levels of approximately $229 spent per order.**
 
-Across all regions during this time period, TechDeals' gaming monitor was the best performing product, and Apple products have accounted for **roughly 50% of all sales.**
+Looking at order distribution, NA and EMEA made up roughly **80% of sales and orders.** This remained persistent across time and varying product groupings. 
+
+During this time period, TechDeals' gaming monitor was the best performing product in sales, and Apple Airpods sold the most units with **48k orders in total.**  Overall, Apple was the strongest brand, with their products accounting for **roughly 50% of all sales.**
 
 <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/c11c535e-a6c6-41ca-8317-d0ea6d82e26a" width=70% height=70%>
 
+### Seasonality and Month-over-Month Trends:
+Monthly summary stats here
 
+highest order count months are consistently Jan/Sept/Dec
+Feb/June/Oct are always tough
+'20 and '21 were great, even with decline in early '21
+serious 2nd half decline in '22
 
-
-
+<img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/9fc007bc-9b1f-44e3-a65b-6c31d9f87a4d" width=70% height=70%>
 
 
 # Recommendations
