@@ -3,7 +3,7 @@ Founded in 2018, TechDeals is an e-commerce company that sells popular electroni
 
 To prepare for a company-wide town hall, a key stakeholder at TechDeals has asked for insights & recommendations based on a dataset of 108k+ customer transactions spanning from 2019-2022.
 
-# About the Data
+## About the Data
 
 An ERD detailing the structure of the dataset can be found below. As each record in the "orders" table represents a unique order, the table grain is order ID.
 
@@ -11,13 +11,26 @@ Before analysis, additional steps were taken to process the data and address iss
 
 ![techdeals_erd](https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/96b27c67-bfdf-4764-9548-c626b63d243b)
 
+# Sales Insights
 
-# Summary of Insights
+### Yearly Trends: 
+From 2019-2022, TechDeals averaged slightly over **$7 million in sales and 27k orders per year** , eclipsing **$28 million in total sales and 108k orders** over the four year period. 
 
-- [ ]  Summary follows this order: Context & Data → Insights & Recommendations → Technical Process
-- [ ]  Include a visual that shows graphs, pivot tables, or dashboard
+2019 was TechDeals' weakest overall year with less than $4 million in sales, but the company recieved a massive boost following the onset of the pandemic, with **order count doubling in 2020** to nearly 34k total orders. Average Order Value (AOV) also increased **31% to approximately $300 in 2020****, leading to a **163% spike in total sales** and their best overall year, **totalling over $10 million in sales**. 
 
-- [ ]  - Projects are stored in GitHub with a concise ReadMe containing 1) a quick overview, 2) a visual, 3) insights, and 4) recommendations; requires no scrolling to get to the “so what” of the project
-- [ ]  Projects use an actual sample company name to represent company relevance (note: “Elist Post-Pandemic Analysis” would have been a better title than “Post-Pandemic E-commerce Analysis)
+However, TechDeals has since seen consecutive years of sales decline, with **sales falling 10% in 2021** (despite a 6% YoY increase in orders) and a precipitous fall of **-46% in sales and -40% in orders** from 2021 to 2022.
 
+Across all regions during this time period, TechDeals' gaming monitor has been the best performing product overall, and Apple products have accounted for **50% of all sales.**
+
+![Product Performance](https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/c11c535e-a6c6-41ca-8317-d0ea6d82e26a)
+
+
+
+
+
+
+
+# Recommendations
+
+# Data Cleaning and Technical Process
 
