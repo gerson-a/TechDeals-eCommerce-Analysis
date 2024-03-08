@@ -9,7 +9,7 @@ An ERD detailing the structure of the dataset can be found below. As each record
 
 Before analysis, additional steps were taken to process the data and address issues including missing values and inconsistent formatting. A log detailing these steps can be found at the bottom of this document.
 
-![techdeals_erd](https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/96b27c67-bfdf-4764-9548-c626b63d243b)
+<img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/96b27c67-bfdf-4764-9548-c626b63d243b" width=50% height=50%>
 
 # Sales Insights
 
@@ -20,9 +20,9 @@ From 2019-2022, TechDeals averaged slightly over **$7 million in sales and 27k o
 
 However, TechDeals has since seen consecutive years of sales decline, with **sales falling 10% in 2021** (despite a 6% YoY increase in orders) and a precipitous fall of **-46% in sales and -40% in orders** from 2021 to 2022.
 
-Across all regions during this time period, TechDeals' gaming monitor has been the best performing product overall, and Apple products have accounted for **roughly 50% of all sales.**
+Across all regions during this time period, TechDeals' gaming monitor was the best performing product overall, and Apple products have accounted for **roughly 50% of all sales.**
 
-![Product Performance](https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/c11c535e-a6c6-41ca-8317-d0ea6d82e26a)
+<img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/c11c535e-a6c6-41ca-8317-d0ea6d82e26a" width=70% height=70%>
 
 
 
