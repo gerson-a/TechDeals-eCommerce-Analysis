@@ -27,6 +27,10 @@ During this time period, TechDeals' gaming monitor was the best performing produ
 <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/c11c535e-a6c6-41ca-8317-d0ea6d82e26a" width=70% height=70%>
 
 ### Seasonality and Month-over-Month Trends:
+TechDeals experiences seasonal fluctuations in sales, as January/September/December have consistenly high order counts and sales, while February/June/October tend to perform poorly. The average month consisted of **$585k in sales over 2200+ orders averaging roughly $250 per order.** 
+
+TechDeal's best month was **December '20, which eclipsed $1.25m in sales across 4k+ orders**, but its worst month was **October '22 with only $178k in sales and 825 orders.**
+
 Monthly summary stats here
 
 highest order count months are consistently Jan/Sept/Dec
