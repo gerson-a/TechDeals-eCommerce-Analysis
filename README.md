@@ -38,10 +38,14 @@ Before analysis, additional steps were taken to process the data and address iss
 ### Refund Trends:
 
 * Although roughly 5% of all TechDeals' transactions were refunded by customers, several products had much higher refund rates. The Macbook and Thinkpad laptops had over **11% of orders refunded,** nearly 4% higher than the next most refunded item, the iPhone (7.6%).
-  
+
 * The gaming monitor also had an above-average refund rate of nearly 6.2%, suggesting that TechDeals' more expensive products are more likely to be refunded.
 
-* Airpods were the most refunded item, with over **2.6k orders returned.**
+* Despite the massive increase in sales in 2020, iPhone and Macbook refunds remained the same while Airpods refunds jumped by **+4% to 10% of orders refunded.**
+
+* Refunds of Apple products fell across the board in 2021 to an average of **4% of products refunded.** There were 0 refunds for Apple products in 2022, which may be the result of missing data.
+
+* Airpods were the most refunded item overall, with over **2.6k orders returned.**
 
 # Loyalty Program Insights
 
