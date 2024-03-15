@@ -9,7 +9,7 @@ An ERD detailing the structure of the dataset can be found below. As each record
 
 Before analysis, additional steps were taken to process the data and address issues including missing values and inconsistent formatting. A log detailing these steps can be found at the bottom of this document.
 
-<img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/96b27c67-bfdf-4764-9548-c626b63d243b" width=50% height=50%>
+  <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/96b27c67-bfdf-4764-9548-c626b63d243b" width=50% height=50%>
 
 # Sales Insights
 
@@ -24,7 +24,7 @@ Before analysis, additional steps were taken to process the data and address iss
 
 * During this time period, TechDeals' gaming monitor was the best performing product in sales, and Apple Airpods sold the most units with **48k orders in total (45% of all orders).**  Overall, Apple was the strongest brand, with their products accounting for **roughly 50% of all sales and orders.**
 
-<img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/c11c535e-a6c6-41ca-8317-d0ea6d82e26a" width=70% height=70%>
+    <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/c11c535e-a6c6-41ca-8317-d0ea6d82e26a" width=70% height=70%>
 
 ### Seasonality and Month-over-Month Trends:
 * TechDeals experiences seasonal fluctuations in sales, as January/September/December have consistenly high order counts and sales, while February/June/October tend to perform poorly. The average month consisted of **$585k in sales over 2200+ orders averaging roughly $250 per order.** 
@@ -33,7 +33,7 @@ Before analysis, additional steps were taken to process the data and address iss
 
 * Looking more broadly, the company saw large dropoffs in performance over the 1st halves of both 2021 and 2022; during these 6 month periods, sales fell by **an average of -10% month-over-month.**
 
-<img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/9fc007bc-9b1f-44e3-a65b-6c31d9f87a4d" width=70% height=70%>
+    <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/9fc007bc-9b1f-44e3-a65b-6c31d9f87a4d" width=70% height=70%>
 
 ### Refund Rates:
 
@@ -51,15 +51,20 @@ Before analysis, additional steps were taken to process the data and address iss
 
 * Over **32k customers signed up** for the loyalty program from 2019-2022, representing **43.5% of the total customer base** during that period. Of those signups, **23.3k came from direct marketing at a below-average 40% signup rate.** Excluding signups from unknown sources, **email marketing had the highest conversion rate at 58.8%.**
 
-* 
+* Purchases from loyalty customers only amounted to **11% of total sales in 2019,** but that figure has increased each year since. Loyalty transactions outpaced non-loyalty sales for the first time in April 2021 and represented **53% of sales in 2021,** eventually growing to a high-water mark of **55% in 2022.**
 
+*  Non-loyalty orders saw a spike in AOV with the onset of the pandemic, but the AOV of loyalty purchases increased steadily over time and outgrew non-loyalty AOV halfway through 2021 (reaching a maximum of **$269 AOV in October 2021)**. Loyalty orders maintained a higher AOV until the final months of 2022, during which TechDeals' performance fell across the board. 
 
-
-
-<img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/dbe97597-e915-4189-9a7d-307cdbefffe7" width=70% height=70%>
+    <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/dbe97597-e915-4189-9a7d-307cdbefffe7" width=70% height=70%>
 
 
 # Recommendations
+
+* find out precisely when customers signed up for loyalty
+
+* missing refund data
+
+* 
 
 # Data Cleaning and Technical Process
 
