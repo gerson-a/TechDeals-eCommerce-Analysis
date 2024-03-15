@@ -16,7 +16,7 @@ Before analysis, additional steps were taken to process the data and address iss
 ### Yearly Trends: 
 From 2019-2022, TechDeals averaged slightly over **$7 million in sales and 27k orders per year** , eclipsing **$28 million in total sales and 108k orders** over the four year period. 
 
-2019 was TechDeals' weakest overall year with less than $4 million in sales, but the company recieved a massive boost following the onset of the pandemic, with **order count doubling in 2020** to nearly 34k total orders. Average Order Value (AOV) also increased **31% to approximately $300 in 2020**, leading to a **163% spike in sales** and their best overall year, **totalling over $10 million in sales**. 
+2019 was TechDeals' weakest overall year with less than $4 million in sales, but the company recieved a massive boost following the onset of the pandemic, as **order count doubled in 2020** to nearly 34k total orders. Average Order Value (AOV) also increased **31% to approximately $300 in 2020**, leading to a **163% spike in sales** and their best overall year, **totalling over $10 million in sales**. 
 
 However, TechDeals has since seen consecutive years of sales decline, with **sales falling 10% in 2021** (despite a 6% YoY increase in orders) and a precipitous fall of **-46% in sales and -40% in orders** from 2021 to 2022. By 2022's conclusion, AOV had also fallen sharply, **dropping back to 2019 levels of approximately $229 spent per order.**
 
@@ -29,17 +29,9 @@ During this time period, TechDeals' gaming monitor was the best performing produ
 ### Seasonality and Month-over-Month Trends:
 TechDeals experiences seasonal fluctuations in sales, as January/September/December have consistenly high order counts and sales, while February/June/October tend to perform poorly. The average month consisted of **$585k in sales over 2200+ orders averaging roughly $250 per order.** 
 
-TechDeal's best month was **December '20, which eclipsed $1.25m in sales across 4k+ orders**, but its worst month was **October '22 with only $178k in sales and 825 orders.**
+TechDeal's best month was **December '20, in which it eclipsed $1.25m in sales across 4k+ orders**, but its worst month was **October '22 with only $178k in sales and 825 orders.** With regards to growth specifically, **March 2020 led the way with increases of +50% in sales and +46% orders month-over-month**, and **October 2022 was the worst growth month, dropping -55% and -47% in those categories respectively.**
 
-Monthly summary stats here
-
-highest order count months are consistently Jan/Sept/Dec
-
-Feb/June/Oct are always tough
-
-'20 and '21 were great, even with decline in early '21
-
-serious 2nd half decline in '22
+Looking more broadly, the company saw large dropoffs in performance over the 1st halves of both 2021 and 2022; during these 6 month periods, sales fell by **an average of -10% month-over-month.**
 
 <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/9fc007bc-9b1f-44e3-a65b-6c31d9f87a4d" width=70% height=70%>
 
