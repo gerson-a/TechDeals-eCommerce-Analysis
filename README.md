@@ -35,7 +35,7 @@ Before analysis, additional steps were taken to process the data and address iss
 
 <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/9fc007bc-9b1f-44e3-a65b-6c31d9f87a4d" width=70% height=70%>
 
-### Refund Trends:
+### Refund Rates:
 
 * Although roughly 5% of all TechDeals' transactions were refunded by customers, several products had much higher refund rates. The Macbook and Thinkpad laptops had over **11% of orders refunded,** nearly 4% higher than the next most refunded item, the iPhone (7.6%).
 
@@ -48,6 +48,12 @@ Before analysis, additional steps were taken to process the data and address iss
 * Airpods were the most refunded item overall, with over **2.6k orders returned.**
 
 # Loyalty Program Insights
+
+* Over **32k customers signed up for the loyalty program** from 2019-2022, representing **43.5% of the total customer base during that period.** Of those signups, **23.3k came from direct marketing at a below-average 40% signup rate.** Excluding signups from unknown sources, **email marketing had the highest conversion rate at 58.8%.**
+
+* 
+
+
 
 
 <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/dbe97597-e915-4189-9a7d-307cdbefffe7" width=70% height=70%>
