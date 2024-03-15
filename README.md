@@ -49,7 +49,7 @@ Before analysis, additional steps were taken to process the data and address iss
 
 # Loyalty Program Insights
 
-* Over **32k customers signed up for the loyalty program** from 2019-2022, representing **43.5% of the total customer base during that period.** Of those signups, **23.3k came from direct marketing at a below-average 40% signup rate.** Excluding signups from unknown sources, **email marketing had the highest conversion rate at 58.8%.**
+* Over **32k customers signed up** for the loyalty program from 2019-2022, representing **43.5% of the total customer base** during that period. Of those signups, **23.3k came from direct marketing at a below-average 40% signup rate.** Excluding signups from unknown sources, **email marketing had the highest conversion rate at 58.8%.**
 
 * 
 
