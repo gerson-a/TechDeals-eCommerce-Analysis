@@ -58,6 +58,11 @@ Before analysis, additional steps were taken to process the data and address iss
     <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/dbe97597-e915-4189-9a7d-307cdbefffe7" width=70% height=70%>
 
 
+# Operational Efficiency
+
+* TechDeals has been very consistent in its shipping times regardless of region. From time of purchase to delivery, 
+
+
 # Recommendations
 
 * find out precisely when customers signed up for loyalty
