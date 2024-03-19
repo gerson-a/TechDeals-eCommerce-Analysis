@@ -64,17 +64,20 @@ Before analysis, additional steps were taken to process the data and address iss
 
 * APAC and EMEA did see slower shipping in 2019, with both averaging **slightly over 8 days to deliver**, but those times have since dropped to levels similar to the other regions.
 
-* From 2019-2022, **27k+ orders (25% of all orders)** did not have a region associated with the transaction, meaning the customer's country was not identified.
-
 # Recommendations
+
+Moving forward, TechDeals should consider the following proposals --
+
+#### Marketing:
+ * Work with marketing team to better understand why email was the most effective marketing channel.
+
+ * Increase social media marketing, as the channel had an above-average conversion rate. Decrease direct marketing spend due to its low signup rate. 
 
 
 ### Data Quality:
-* find out precisely when customers signed up for loyalty
+* Work with data engineering to track precisely when customers sign up for the loyalty program, both in the past (if possible) and moving froward. 
 
-* missing refund data
-
-* missing region data
+* Investigate missing refund data from 2022 and ensure future transactions will be unaffected.
 
 # Data Cleaning and Technical Process
 
