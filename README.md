@@ -60,16 +60,21 @@ Before analysis, additional steps were taken to process the data and address iss
 
 # Operational Efficiency
 
-* TechDeals has been very consistent in its shipping times regardless of region. From time of purchase to delivery, 
+* TechDeals has been very consistent in its shipping times, regardless of region. From time of purchase to delivery, shipping has taken around **7.5 days from 2020-2022,** with orders in 2019 only taking slightly longer to deliver at an average of 7.7 days.
 
+* APAC and EMEA did see slower shipping in 2019, with both averaging **slightly over 8 days to deliver**, but those times have since dropped to levels similar to the other regions.
+
+* From 2019-2022, **27k+ orders (25% of all orders)** did not have a region associated with the transaction, meaning the customer's country was not identified.
 
 # Recommendations
 
+
+### Data Quality:
 * find out precisely when customers signed up for loyalty
 
 * missing refund data
 
-* 
+* missing region data
 
 # Data Cleaning and Technical Process
 
