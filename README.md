@@ -68,7 +68,7 @@ Before analysis, additional steps were taken to process the data and address iss
 
 Moving forward, TechDeals should consider the following proposals --
 
-#### Marketing:
+### Marketing:
  * Work with marketing team to better understand why email was the most effective marketing channel.
 
  * Increase social media marketing, as the channel had an above-average conversion rate. Decrease direct marketing spend due to its low signup rate. 
