@@ -69,13 +69,14 @@ Before analysis, additional steps were taken to process the data and address iss
 Moving forward, TechDeals should consider the following proposals --
 
 ### Marketing:
- * Work with marketing team to better understand why email was the most effective marketing channel.
+* Advertise more heavily during February/June/October to combat TechDeals' historically poor performance during those months. 
+ 
+* Work with marketing team to better understand why email was the most effective channel at generating loyalty program signups.
 
- * Increase social media marketing, as the channel had an above-average conversion rate. Decrease direct marketing spend due to its low signup rate. 
-
+* Increase social media marketing, as the channel had an above-average conversion rate. Decrease direct marketing spend due to its low signup rate. 
 
 ### Data Quality:
-* Work with data engineering to track precisely when customers sign up for the loyalty program, both in the past (if possible) and moving froward. 
+* Work with data engineering to track precisely when customers sign up for the loyalty program, both in the past (if possible) and moving forward. 
 
 * Investigate missing refund data from 2022 and ensure future transactions will be unaffected.
 
