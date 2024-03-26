@@ -11,7 +11,7 @@ Before analysis, additional steps were taken to process the data and address iss
 
   <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/96b27c67-bfdf-4764-9548-c626b63d243b" width=50% height=50%>
 
-# Sales Insights
+## Sales Insights
 
 ### Yearly Trends: 
 * From 2019-2022, TechDeals averaged slightly over **$7 million in sales and 27k orders per year** , eclipsing **$28 million in total sales and 108k orders** over the four year period. 
@@ -47,7 +47,7 @@ Before analysis, additional steps were taken to process the data and address iss
 
 * Airpods were the most refunded item overall, with over **2.6k orders returned.**
 
-# Loyalty Program Insights
+## Loyalty Program Insights
 
 * Over **32k customers signed up** for the loyalty program from 2019-2022, representing **43.5% of the total customer base** during that period. Of those signups, **23.3k came from direct marketing at a below-average 40% signup rate.** Excluding signups from unknown sources, **email marketing had the highest conversion rate at 58.8%.**
 
@@ -58,7 +58,7 @@ Before analysis, additional steps were taken to process the data and address iss
     <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/dbe97597-e915-4189-9a7d-307cdbefffe7" width=70% height=70%>
 
 
-# Operational Efficiency
+## Operational Efficiency
 
 * TechDeals has been consistent in its shipping times, regardless of region. From time of purchase to delivery, shipping has taken around **7.5 days from 2020-2022,** with orders in 2019 only taking slightly longer to deliver at **an average of 7.7 days**.
 
@@ -66,14 +66,23 @@ Before analysis, additional steps were taken to process the data and address iss
 
 # Recommendations
 
-Moving forward, TechDeals should consider the following proposals --
+Moving forward, TechDeals should consider proposals in the following areas --
 
-### Marketing:
-* Advertise more heavily during February/June/October to combat TechDeals' historically poor performance during those months. 
- 
+### Sales:
+* Discontinue sales of the unpopular Bose Soundport Headphones, which made only $3.3k for TechDeals over the 4-year span. 
+
+* Work with sales team to investigate the preciptious, company-wide drop in sales over the 2nd half of 2022.
+
+* Advertise more heavily during February/June/October to combat TechDeals' historically poor performance during those months.
+
+* Promote high AOV and popular products such as the gaming monitor, Macbook, and AirPods.
+
+### Loyalty Program:
+* Increase social media marketing, as the channel had an above-average conversion rate. Decrease direct marketing spend due to its low signup rate. 
+
 * Work with marketing team to better understand why email was the most effective channel at generating loyalty program signups.
 
-* Increase social media marketing, as the channel had an above-average conversion rate. Decrease direct marketing spend due to its low signup rate. 
+* Incentivize further loyalty program signups by offering priority shipping to loyalty customers. 
 
 ### Data Quality:
 * Work with data engineering to track precisely when customers sign up for the loyalty program, both in the past (if possible) and moving forward. 
@@ -81,4 +90,56 @@ Moving forward, TechDeals should consider the following proposals --
 * Investigate missing refund data from 2022 and ensure future transactions will be unaffected.
 
 # Data Cleaning and Technical Process
+
+The excel workbook containing the original & cleaned dataset, pivot tables, and further analysis done on the data can be found in this repository's files. The SQL queries for this analysis can be found in the repository as well. 
+
+Prior to analysis, the following steps were taken to clean the data:
+
+* Fixed formatting inconsistencies with purchase timestamps, reformatting all rows to MM/DD/YY format.
+
+* Calculated purchase months and years, giving each its own column for pivot table manipulation.
+
+* Removed erroneous refunds with timestamps occuring in the future (after the date at the time of analysis).
+
+* Created a helper column to identify refunds.
+
+* In a new column, copied over and fixed inconsistencies in product names.
+
+* Filled in missing/incorrect regions within the "country_lookup" table 
+
+* Using the vlookup function to reference the "country_lookup" table, created a region column within the "orders" table.
+
+* Logged the following missing/null values:
+	* USD_PRICE / LOCAL_PRICE equal to 0 or blank
+		* 191 rows (0.17% of rows affected)
+
+	* CURRENCY is blank.
+		* 54 rows affected
+		
+	* MARKETING_CHANNEL is "unknown" or blank 
+		* 82 "unknown" rows, 1387 blank rows -- 1469 total rows affected (1.4% of rows)
+		
+	*  	ACCOUNT_CREATION_METHOD is "unknown" or blank 
+		* 2900 "unknown" rows, 1387 blank rows -- 4287 total rows affected (3.9% of rows)
+		
+	*  COUNTRY_CODE is blank
+		* 140 rows affected (0.13% of rows affected)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
