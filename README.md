@@ -75,14 +75,14 @@ Moving forward, TechDeals should consider proposals in the following areas --
 
 * Advertise more heavily during February/June/October to combat TechDeals' historically poor performance during those months.
 
-* Promote high AOV and popular products such as the gaming monitor, Macbook, and AirPods.
+* Promote products that are both popular and have high AOVs, such as the gaming monitor, Macbook, and AirPods.
 
 ### Loyalty Program:
-* Increase social media marketing, as the channel had an above-average conversion rate. Decrease direct marketing spend due to its low signup rate. 
+* Increase social media marketing, as that channel had an above-average conversion rate. Decrease direct marketing spend due to its low signup rate. 
 
 * Work with marketing team to better understand why email was the most effective channel at generating loyalty program signups.
 
-* Incentivize further loyalty program signups by offering priority shipping to loyalty customers. 
+* With the knowledge that loyalty customers have made more purchases at a higher AOV in recent year, incentivize more loyalty program signups by offering priority shipping to loyalty customers. 
 
 ### Data Quality:
 * Work with data engineering to track precisely when customers sign up for the loyalty program, both in the past (if possible) and moving forward. 
