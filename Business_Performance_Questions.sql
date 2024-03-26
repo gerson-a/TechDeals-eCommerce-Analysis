@@ -22,22 +22,39 @@ SELECT ROUND(AVG(order_count), 2) as avg_orders,
  FROM quarterly_sales;
 
 
-#For products purchased in 2022 on the website or products purchased on mobile in any year, which region has the average highest time to deliver?
+#Which region has the average highest time to deliver each year?
 
+--extract the year from purchase_ts
 --find the region for each order by joining the customer table with geo_lookup table
 --calculate the difference between purchase and delivery timestamps to get average delivery time
-SELECT region,
-  avg(date_diff(order_status.delivery_ts, order_status.purchase_ts, day)) as avg_delivery_time
- FROM core.orders 
- LEFT JOIN core.order_status
-   ON orders.id = order_status.order_id
- LEFT JOIN core.customers
-   ON orders.customer_id = customers.id
- LEFT JOIN core.geo_lookup
-   ON customers.country_code = geo_lookup.country
- WHERE (extract(year from order_status.purchase_ts) = 2022 AND lower(purchase_platform) = 'website') OR lower(purchase_platform) = 'mobile app'
+--order by delivery times within each year
+SELECT extract(year from order_status.purchase_ts) as year,
+  region,
+  count(order_status.order_id) as order_count,
+  round(avg(date_diff(order_status.delivery_ts, order_status.purchase_ts, day)), 3) as avg_delivery_time
+  FROM core.orders 
+  LEFT JOIN core.order_status
+    ON orders.id = order_status.order_id
+  LEFT JOIN core.customers
+    ON orders.customer_id = customers.id
+  LEFT JOIN core.geo_lookup
+    ON customers.country_code = geo_lookup.country
+ GROUP BY 1, 2
+ ORDER BY 1 desc, 4 desc;
+
+--group by year only
+SELECT extract(year from order_status.purchase_ts) as year,
+  count(orders.id) as order_count,
+  round(avg(date_diff(order_status.delivery_ts, order_status.purchase_ts, day)), 3) as avg_delivery_time
+  FROM core.orders 
+  LEFT JOIN core.order_status
+    ON orders.id = order_status.order_id
+  LEFT JOIN core.customers
+    ON orders.customer_id = customers.id
+  LEFT JOIN core.geo_lookup
+    ON customers.country_code = geo_lookup.country
  GROUP BY 1
- ORDER BY 2 desc;
+ ORDER BY 1 desc, 3 desc;
 
 
 #Are there certain products that are getting refunded more frequently than others?
@@ -86,8 +103,15 @@ SELECT region,
 --use loyalty program helper column to calculate signup rate and total signups
 --group by channel to identify highest signup rate
 SELECT marketing_channel,
+  COUNT(marketing_channel) as total_customers,
   ROUND(AVG(loyalty_program)*100, 1) as loyalty_signup_rate,
   SUM(loyalty_program) as loyalty_signups
   FROM core.customers
   GROUP BY 1
-  ORDER BY 2 DESC;
+  ORDER BY 3 DESC;
+
+--calculate total unique customers and loyalty program signups
+SELECT COUNT(DISTINCT id) as total_customers,
+  SUM(loyalty_program) as total_signups,
+  ROUND(AVG(loyalty_program)*100, 1) as avg_signup_rate
+  FROM core.customers;
