@@ -91,7 +91,7 @@ Moving forward, TechDeals should consider proposals in the following areas --
 
 # Data Cleaning and Technical Process
 
-The excel workbook containing the original & cleaned dataset, pivot tables, and further analysis done on the data can be found in this repository's files. The SQL queries for this analysis can be found in the repository as well. 
+The excel workbook containing the original dataset, pivot tables, and further analysis done on the data can be found in this repository's files. The SQL queries for this analysis can be found in the repository as well. 
 
 Prior to analysis, the following steps were taken to clean the data:
 
