@@ -33,7 +33,7 @@ Before analysis, additional steps were taken to process the data and address iss
 
 * Looking more broadly, the company saw large dropoffs in performance over the 1st halves of both 2021 and 2022; during these 6 month periods, sales fell by **an average of -10% month-over-month.**
 
-    <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/9fc007bc-9b1f-44e3-a65b-6c31d9f87a4d" width=70% height=70%>
+    <img src="https://github.com/gerson-a/TechDeals-eCommerce-Analysis/assets/142946842/9fc007bc-9b1f-44e3-a65b-6c31d9f87a4d" width=90% height=90%>
 
 ### Refund Rates:
 
@@ -95,33 +95,27 @@ The excel workbook containing the original dataset, pivot tables, and further an
 
 Prior to analysis, the following steps were taken to clean the data:
 
-* Fixed formatting inconsistencies with purchase timestamps, reformatting all rows to MM/DD/YY format.
+* Data Types:
+	* Fixed formatting inconsistencies with purchase timestamps, reformatting all rows to MM/DD/YY format.
+  	* Removed erroneous refunds with timestamps occuring in the future (i.e., after the date at the time of analysis).
+  	* Filled in missing/incorrect regions within the "country_lookup" table.
+  	  
+* Helper Columns:
+	* Calculated purchase months and years, giving each its own column for pivot table manipulation.
+	* Created a helper column to identify refunds.
+	* In a new column, copied over product names and cleaned inconsistencies.
+	* Using the vlookup function to reference the "country_lookup" table, created a region column within the "orders" table.
 
-* Calculated purchase months and years, giving each its own column for pivot table manipulation.
-
-* Removed erroneous refunds with timestamps occuring in the future (i.e., after the date at the time of analysis).
-
-* Created a helper column to identify refunds.
-
-* In a new column, copied over product names and cleaned inconsistencies.
-
-* Filled in missing/incorrect regions within the "country_lookup" table. 
-
-* Using the vlookup function to reference the "country_lookup" table, created a region column within the "orders" table.
-
-* Logged the following missing/null values:
-	* USD_PRICE / LOCAL_PRICE equal to 0 or blank
-		* 191 rows affected (0.17% of rows)
-
+* Missing Values/Nulls:
+	* Logged the following missing/null values:
+		* USD_PRICE / LOCAL_PRICE equal to 0 or blank
+			* 191 rows affected (0.17% of rows)
 	* CURRENCY is blank.
 		* 54 rows affected
-		
 	* MARKETING_CHANNEL is "unknown" or blank 
 		* 82 "unknown" rows, 1387 blank rows -- 1469 total rows affected (1.4% of rows)
-		
-	*  	ACCOUNT_CREATION_METHOD is "unknown" or blank 
+	* ACCOUNT_CREATION_METHOD is "unknown" or blank 
 		* 2900 "unknown" rows, 1387 blank rows -- 4287 total rows affected (3.9% of rows)
-		
 	*  COUNTRY_CODE is blank
 		* 140 rows affected (0.13% of rows affected)
 
